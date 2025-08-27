@@ -1,0 +1,125 @@
+import React, { useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
+import '../../App.css';
+
+
+export default function ProjectDetail() {
+    return (
+        <div className="container">
+            <div className="project-header">
+                <h1 className="project-title">Foodoor – Food Ordering Web App</h1>
+                <p className="project-subtitle">
+                    Responsive food ordering platform with real-time restaurant data
+                </p>
+                <div className="project-meta">
+                    <div className="meta-item">Duration: 4 months</div>
+                    <div className="meta-item">Team: Solo project</div>
+                    <div className="meta-item">Status: Completed</div>
+                    <div className="meta-item">Year: 2024</div>
+                </div>
+                <div>
+                    <a href="#" className="btn">Live Demo</a>
+                    <a href="https://github.com/Claireko2/foodoor-app.git" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Code</a>
+                </div>
+            </div>
+
+            <div className="video-container">
+                <h2 className="section-title">Demo Video</h2>
+                <video
+                    className="demo-video"
+                    controls
+                    poster="https://placehold.co/800x450?text=Foodoor+Demo+Video"
+                >
+                    Your browser does not support the video tag.
+                </video>
+                <p>Watch the demo to see the ordering flow and real-time restaurant data.</p>
+            </div>
+
+            <div className="content-grid">
+                <div className="main-content">
+                    <h2 className="section-title">Project Overview</h2>
+                    <p>
+                        Foodoor is a responsive food ordering web application designed to make dining
+                        discovery and online ordering seamless. It integrates real-time restaurant
+                        and menu data from the Yelp Fusion API, while leveraging Firebase for
+                        secure authentication and user profile management. Automated order and
+                        notification emails are powered by the Resend API.
+                    </p>
+
+                    <h3>Key Features</h3>
+                    <ul className="feature-list">
+                        <li>Mobile-first, responsive user interface with React</li>
+                        <li>Secure authentication and profile management using Firebase</li>
+                        <li>Real-time restaurant and menu data from Yelp Fusion API</li>
+                        <li>Personalized dashboards with saved orders and preferences</li>
+                        <li>Automated transactional emails (order confirmations, updates) via Resend API</li>
+                        <li>Search and filter options for restaurants and cuisines</li>
+                        <li>Favorites and order history tracking</li>
+                    </ul>
+
+                    <h3>Technical Implementation</h3>
+                    <p>
+                        The frontend is built with React and React Router for seamless navigation.
+                        Firebase Authentication and Firestore are used for secure login, profile storage,
+                        and order tracking. Yelp Fusion API integration fetches live restaurant and
+                        menu details, dynamically rendered in the UI.
+                    </p>
+                    <p>
+                        The app also integrates Resend API for sending real-time order confirmation
+                        and update emails. Data is cached where possible to improve performance, and
+                        the app is fully responsive across devices.
+                    </p>
+
+                    <h3>Challenges & Solutions</h3>
+                    <p>
+                        <strong>Challenge:</strong> Displaying real-time restaurant data while ensuring
+                        smooth performance.
+                    </p>
+                    <p>
+                        <strong>Solution:</strong> Implemented lazy loading and request caching, and
+                        optimized API queries to load only relevant data.
+                    </p>
+
+                    <p>
+                        <strong>Challenge:</strong> Managing secure authentication and user data
+                        without a traditional backend server.
+                    </p>
+                    <p>
+                        <strong>Solution:</strong> Leveraged Firebase Authentication and Firestore,
+                        reducing backend complexity while ensuring scalability and data security.
+                    </p>
+
+                    <h3>Screenshots</h3>
+                    <div className="gallery">
+                        <div className="gallery-item">Landing Page</div>
+                        <div className="gallery-item">Restaurant Search</div>
+                        <div className="gallery-item">Menu & Order Flow</div>
+                        <div className="gallery-item">Profile & Order History</div>
+                    </div>
+                </div>
+
+                <div className="sidebar">
+                    <h3 className="section-title">Technologies Used</h3>
+                    <div className="tech-grid">
+                        <div className="tech-item">React</div>
+                        <div className="tech-item">Firebase Auth</div>
+                        <div className="tech-item">Firestore</div>
+                        <div className="tech-item">Yelp Fusion API</div>
+                        <div className="tech-item">Resend API</div>
+                        <div className="tech-item">React Router</div>
+                        <div className="tech-item">CSS3</div>
+                    </div>
+
+                    <h3>Project Stats</h3>
+                    <ul className="feature-list">
+                        <li>5,000+ lines of code</li>
+                        <li>20+ API integrations</li>
+                        <li>100% mobile responsive</li>
+                        <li>Real-time API-driven data</li>
+                        <li>Secure authentication flow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    );
+}
