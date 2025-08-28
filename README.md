@@ -15,7 +15,6 @@ A modern, responsive portfolio website built with React and Tailwind CSS to show
 ## Tech Stack
 
 - **Frontend Framework**: React 
-- **Styling**: Tailwind CSS
 - **Routing**: React Router DOM 
 - **Backend Services**: Firebase (Authentication & Firestore)
 - **Build Tool**: Create React App
