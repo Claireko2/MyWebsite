@@ -293,7 +293,7 @@ export default function Home() {
                             <div style={styles.professionalImageContainer}>
                                 <div style={styles.professionalImage}>
                                     <img
-                                        src="./files/IMG_1.png"
+                                        src="./files/IMG_2.JPG"
                                         alt="icon"
                                         style={{ width: '100%', height: 'auto', verticalAlign: 'middle' }}
                                     />
