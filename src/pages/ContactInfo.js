@@ -55,7 +55,7 @@ export default function ContactInfo() {
             {/* RIGHT */}
             <div className="contact-right">
                 <img
-                    src="./files/contact.jpg"
+                    src="./files/contact.jpeg"
                     alt="Contact illustration"
                 />
             </div>
