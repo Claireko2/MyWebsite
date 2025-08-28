@@ -80,5 +80,5 @@ This portfolio uses Firebase for backend services:
 - Secure data access rules
 
 **Environment Variables:**
-Make sure to add your Firebase configuration to the `.env` file (never commit this file to version control).
+Make sure to add your Firebase configuration to the `.env` file (never commit this file to version control)
 
