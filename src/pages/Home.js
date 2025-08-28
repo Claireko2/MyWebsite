@@ -246,7 +246,7 @@ export default function Home() {
                         <button style={styles.primaryBtn} onClick={() => navigate("/projects")}>
                             View My Work
                         </button>
-                        <button style={styles.secondaryBtn} onClick={() => navigate("/message")}>
+                        <button style={styles.secondaryBtn} onClick={() => navigate("/contact")}>
                             Get In Touch
                         </button>
                     </div>
