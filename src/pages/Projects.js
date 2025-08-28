@@ -56,7 +56,7 @@ export default function Projects() {
     return (
         <div className="container">
             <div id="projects" className="page active">
-                <h2 className="section-title">My Projects</h2>
+                <h1 className="section-title">My Projects</h1>
                 <div className="projects-grid">
                     {projects.map(project => (
                         <Link key={project.id} to={project.link} className="project-card" style={{ textDecoration: 'none', color: 'inherit' }}>

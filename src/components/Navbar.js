@@ -21,7 +21,8 @@ export default function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/story">Story</Link>
-                    {currentUser && <Link to="/message">Contact Me</Link>}
+                    <Link to="/contact">Contact</Link>
+                    {currentUser && <Link to="/message">Message Me</Link>}
                     {!currentUser && <Link to="/login">Login</Link>}
                 </div>
                     {currentUser && (

@@ -239,7 +239,7 @@ export default function Home() {
                     </h1>
 
                     <p style={styles.heroSubtitle}>
-                        Data Analyst & Full Stack Developer passionate about turning data into insights and building innovative web solutions.
+                        Passionate about turning data into insights and building innovative web solutions.
                     </p>
 
                     <div style={styles.ctaButtons}>

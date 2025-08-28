@@ -5,7 +5,7 @@ export default function Story() {
         <div className="container">
             <div className="resume-header">
                 <h1 className="resume-title">Claire Ko</h1>
-                <p>Data Analyst | full stack Developer</p>
+                <p>Thrive in solving complex problems and finding meaning in data, technology, and everyday experiences.</p>
                 <br />
                 <div className="contact-info space-y-2">
                     <div className="contact-item">
@@ -31,7 +31,7 @@ export default function Story() {
                 </div>
 
                 <a
-                    href="./files/Resume.pdf"
+                    href="./files/Claire_Ko_Resume.pdf"
                     className="download-btn"
                     download
                 >

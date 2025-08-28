@@ -4,7 +4,7 @@ import { AuthProvider } from "./AuthContext";
 import Navbar from "./components/Navbar";
 import PrivateRoute from "./PrivateRoute";
 import Home from "./pages/Home";
-
+import ContactInfo from "./pages/ContactInfo";
 import Projects from "./pages/Projects";
 import Story from "./pages/Story";
 import Blogs from "./pages/Blogs";
@@ -39,7 +39,7 @@ function App() {
 
             <Route path="/story" element={<Story />} />
             <Route path="/blogs" element={<Blogs />} />
-
+            <Route path="/contact" element={<ContactInfo />} />
             <Route path="/login" element={<Login />} />
             <Route
               path="/message"
