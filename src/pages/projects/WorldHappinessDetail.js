@@ -13,7 +13,6 @@ export default function WorldHappinessDetail() {
                     Regression and classification modeling of global happiness factors
                 </p>
                 <div className="project-meta">
-                    <div className="meta-item">Duration: 3 months</div>
                     <div className="meta-item">Team: Solo Project</div>
                     <div className="meta-item">Status: Completed</div>
                     <div className="meta-item">Year: 2024</div>
@@ -38,7 +37,7 @@ export default function WorldHappinessDetail() {
                     <ul className="feature-list">
                         <li>Exploratory data analysis using Python and Excel</li>
                         <li>Linear regression identified GDP, social support, and life expectancy as key factors</li>
-                        <li>Classification models in R: Logistic Regression (80%), Neural Network (84%), kNN (83.9%), Decision Tree</li>
+                        <li>Classification models in sklearn: Logistic Regression (80%), Neural Network (84%), kNN (83.9%), Decision Tree</li>
                         <li>Normalized multi-factor datasets for cross-country comparisons</li>
                         <li>Evaluated accuracy and confusion matrices for model comparison</li>
                     </ul>
@@ -46,27 +45,20 @@ export default function WorldHappinessDetail() {
                     <h3>Technical Implementation</h3>
                     <p>
                         Data preprocessing was performed with Python (Pandas, NumPy) and Excel.
-                        Regression analysis was run in Python, while classification models were built and evaluated in R.
-                        Results were visualized using Excel and Python plotting libraries.
+                        Regression analysis ,classification models were built and evaluated in Python with sklearn.
+                        Results were visualized using Python plotting libraries.
                     </p>
-
-                    <h3>Challenges & Solutions</h3>
-                    <p><strong>Challenge:</strong> Multi-collinearity among socio-economic variables</p>
-                    <p><strong>Solution:</strong> Applied correlation analysis and feature selection for model stability</p>
-
-                    <p><strong>Challenge:</strong> Balancing interpretability and predictive accuracy</p>
-                    <p><strong>Solution:</strong> Reported regression results for interpretability and ML models for performance</p>
                 </div>
 
                 <div className="sidebar">
                     <h3 className="section-title">Technologies Used</h3>
                     <div className="tech-grid">
                         <div className="tech-item">Python</div>
-                        <div className="tech-item">R</div>
                         <div className="tech-item">MS Excel</div>
                         <div className="tech-item">Pandas</div>
                         <div className="tech-item">NumPy</div>
                         <div className="tech-item">Scikit-learn</div>
+                        <div className="tech-item">Seaborn</div>
                     </div>
 
                     <h3>Project Stats</h3>

@@ -22,7 +22,7 @@ const projects = [
         id: "youtube-trending",
         title: "YouTube Trending Video Analysis",
         description: "Analyzed international YouTube trending video data using Python, R, and Excel to uncover viewer behavior and content popularity, performed statistical analyses with 95% confidence intervals, and visualized key trends in Tableau and Excel to provide actionable insights for digital content strategy.",
-        tech: ["Jupyter Notebook", "Python", "R", "Statistical analysis", "Exploratory Analysis", "Confidence Interval"],
+        tech: ["Jupyter Notebook", "Python", "matplotlib", "Statistical analysis", "Exploratory Analysis", "Confidence Interval"],
         image: "./files/Youtube_1.png",
         link: "/projects/youtube-trending"
     },

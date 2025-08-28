@@ -292,9 +292,11 @@ export default function Home() {
                         <div style={styles.imageSection}>
                             <div style={styles.professionalImageContainer}>
                                 <div style={styles.professionalImage}>
-                                    Professional Photo
-                                    <br />
-                                    <span style={{ fontSize: '12px', color: '#9ca3af' }}>(Replace with your image)</span>
+                                    <img
+                                        src="./files/IMG_1.png"
+                                        alt="icon"
+                                        style={{ width: '100%', height: 'auto', verticalAlign: 'middle' }}
+                                    />
                                 </div>
 
                                 <div style={styles.decorativeCircle1}></div>

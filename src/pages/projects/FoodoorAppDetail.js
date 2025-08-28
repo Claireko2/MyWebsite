@@ -70,25 +70,6 @@ export default function ProjectDetail() {
                         the app is fully responsive across devices.
                     </p>
 
-                    <h3>Challenges & Solutions</h3>
-                    <p>
-                        <strong>Challenge:</strong> Displaying real-time restaurant data while ensuring
-                        smooth performance.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Implemented lazy loading and request caching, and
-                        optimized API queries to load only relevant data.
-                    </p>
-
-                    <p>
-                        <strong>Challenge:</strong> Managing secure authentication and user data
-                        without a traditional backend server.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Leveraged Firebase Authentication and Firestore,
-                        reducing backend complexity while ensuring scalability and data security.
-                    </p>
-
                     <h3>Screenshots</h3>
                     <div className="gallery">
                         <div className="gallery-item">Landing Page</div>

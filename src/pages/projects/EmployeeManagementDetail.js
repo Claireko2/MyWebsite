@@ -70,26 +70,6 @@ export default function ProjectDetail() {
                         data through strongly typed models.
                     </p>
 
-                    <h3>Challenges & Solutions</h3>
-                    <p>
-                        <strong>Challenge:</strong> Allowing clients to select multiple services
-                        and optionally delete them all at once.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Implemented a <code>MultiSelectList</code> in
-                        the controller and used form logic to toggle selections and handle
-                        “Delete All Services” option.
-                    </p>
-
-                    <p>
-                        <strong>Challenge:</strong> Displaying live counts of employees, clients,
-                        and services on the dashboard.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Created ViewModels and passed aggregated counts
-                        from the HomeController to the dashboard card components.
-                    </p>
-
                     <h3>Screenshots</h3>
                     <div className="gallery">
                         <div className="gallery-item">Dashboard Overview</div>

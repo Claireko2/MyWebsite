@@ -62,17 +62,16 @@ export default function ProjectDetail() {
 
                     <h3>Challenges & Solutions</h3>
                     <p>
-                        <strong>Challenge:</strong> Integrating multiple skill ontologies (ESCO, O*NET) into a unified schema.
+                        <strong>Challenge:</strong> Resume–job description matching was hindered by inconsistent skill naming, synonyms, and variations in text representation.
                     </p>
                     <p>
-                        <strong>Solution:</strong> Designed a normalized Skill table with mapping scripts to merge ontologies and avoid duplicates.
+                        <strong>Solution:</strong> Developed an NLP pipeline using n-gram tokenization and text normalization to extract candidate skills from resumes and job postings. Mapped extracted terms to a normalized ESCO skill set to unify synonyms and reduce duplicates, enabling accurate resume–job skill gap analysis.
                     </p>
-
                     <p>
                         <strong>Challenge:</strong> Visualizing evolving skill demand and trends effectively for end-users.
                     </p>
                     <p>
-                        <strong>Solution:</strong> Used interactive charts, filtering options, and clustering algorithms to make insights actionable.
+                        <strong>Solution:</strong> Used interactive charts, filtering options to make insights actionable.
                     </p>
                 </div>
 

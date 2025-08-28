@@ -12,7 +12,6 @@ export default function YouTubeTrendingDetail() {
                     Statistical and visual analysis of global YouTube trends
                 </p>
                 <div className="project-meta">
-                    <div className="meta-item">Duration: 2 months</div>
                     <div className="meta-item">Team: Solo Project</div>
                     <div className="meta-item">Status: Completed</div>
                     <div className="meta-item">Year: 2024</div>
@@ -36,42 +35,33 @@ export default function YouTubeTrendingDetail() {
                     <h3>Key Features</h3>
                     <ul className="feature-list">
                         <li>Analyzed global YouTube trending datasets (views, likes, categories, comments)</li>
-                        <li>Statistical analysis with Pandas, NumPy, and R to compare engagement metrics</li>
+                        <li>Statistical analysis with Pandas, NumPy, and Scipy to compare engagement metrics</li>
                         <li>Constructed 95% confidence intervals to validate hypotheses</li>
-                        <li>Tableau dashboards for content category performance and likes-to-view ratios</li>
                         <li>Identified optimal publishing times and regional content preferences</li>
                     </ul>
 
                     <h3>Technical Implementation</h3>
                     <p>
-                        Data was preprocessed in Python (Pandas, NumPy) and R, then aggregated into Excel
-                        for exploratory summaries. Hypothesis testing and interval estimation were performed in R.
-                        Tableau dashboards were designed for stakeholder reporting.
+                        Data was export from Excel and preprocessed in Python (Pandas, NumPy) via Jupyter Notebook
+                        for exploratory summaries. Hypothesis testing and interval estimation were performed in Scipy.
                     </p>
-
-                    <h3>Challenges & Solutions</h3>
-                    <p><strong>Challenge:</strong> Large and noisy datasets with inconsistent category labels</p>
-                    <p><strong>Solution:</strong> Applied preprocessing and standardized category mappings in Python</p>
-
-                    <p><strong>Challenge:</strong> Communicating statistical insights to non-technical audiences</p>
-                    <p><strong>Solution:</strong> Built intuitive Tableau dashboards with drill-down features and Excel charts</p>
                 </div>
 
                 <div className="sidebar">
                     <h3 className="section-title">Technologies Used</h3>
                     <div className="tech-grid">
                         <div className="tech-item">Python</div>
-                        <div className="tech-item">R</div>
                         <div className="tech-item">Pandas</div>
                         <div className="tech-item">NumPy</div>
+                        <div className="tech-item">Scipy</div>
                         <div className="tech-item">MS Excel</div>
-                        <div className="tech-item">Tableau</div>
+                        <div className="tech-item">Matplotlib</div>
                     </div>
 
                     <h3>Project Stats</h3>
                     <ul className="feature-list">
                         <li>10,000+ video records analyzed</li>
-                        <li>5+ Tableau dashboards created</li>
+                        <li>4 visulization chart created</li>
                         <li>95% confidence intervals constructed</li>
                     </ul>
 

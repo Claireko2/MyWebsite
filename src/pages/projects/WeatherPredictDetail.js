@@ -72,15 +72,6 @@ export default function WeatherPredictDetail() {
                         interactively explore forecast confidence.
                     </p>
 
-                    <h3>Challenges & Solutions</h3>
-                    <p>
-                        <strong>Challenge:</strong> Making ML results interpretable for
-                        end users.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Added probability thresholds, tooltips,
-                        and visual confidence intervals in Plotly charts.
-                    </p>
                 </div>
 
                 <div className="sidebar">
