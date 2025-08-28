@@ -64,19 +64,6 @@ npm run build
 
 This creates an optimized build in the `build` folder, ready for deployment to any static hosting service.
 
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-npm test
-```
-
-The project includes comprehensive testing setup with:
-- React Testing Library
-- Jest DOM matchers
-- User event simulation
-
 ## Firebase Setup
 
 This portfolio uses Firebase for backend services:
@@ -96,6 +83,3 @@ This portfolio uses Firebase for backend services:
 **Environment Variables:**
 Make sure to add your Firebase configuration to the `.env` file (never commit this file to version control).
 
-
-
-Built with ❤️ using React and Tailwind CSS
