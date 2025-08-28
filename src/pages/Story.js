@@ -153,7 +153,7 @@ export default function Story() {
                         <div className="date">July 2025</div>
                         <ul className="responsibilities">
                             <li>
-                                Features: Integrates ESCO and O*NET skill datasets with external job APIs, performs skill–job matching,
+                                Features: Integrates ESCO skill datasets with external job APIs, performs skill–job matching,
                                 using NLP (n-gram analysis), provides personalized gap analysis, and visualizes insights with interactive
                                 dashboards (Power BI / web frontend).
                             </li>
