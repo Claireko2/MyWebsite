@@ -18,21 +18,23 @@ export default function ProjectDetail() {
                     <div className="meta-item">Year: 2024</div>
                 </div>
                 <div>
-                    <a href="#" className="btn">Live Demo</a>
-                    <a href="https://github.com/Claireko2/Employee-Service-Management-System.git" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Code</a>
+                    <a href="https://github.com/Claireko2/Employee-Service-Management-System.git" target="_blank" rel="noopener noreferrer" className="btn">View Code</a>
                 </div>
             </div>
 
-            <div className="video-container">
-                <h2 className="section-title">Demo Video</h2>
-                <video
-                    className="demo-video"
-                    controls
-                    poster="https://placehold.co/800x450?text=Demo+Video"
-                >
-                    Your browser does not support the video tag.
-                </video>
-                <p>Watch the demo to explore CRUD features and UI flow</p>
+            <div class="video-container">
+                <h2 class="section-title">Demo Video</h2>
+                <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/nrgBlbN6pEY?si=WRENPoNB-i323iRJ"
+                        title="Demo Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <h3 class="video-title">React CRUD App Demo</h3>
+                <p class="text-center mt-2">Watch the demo to explore CRUD features and UI flow</p>
             </div>
 
             <div className="content-grid">

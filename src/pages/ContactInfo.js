@@ -10,7 +10,7 @@ export default function ContactInfo() {
                 <div className="contact-header">
                     <h1 className="page-title">Let's Connect</h1>
                     <p className="page-subtitle">
-                        I'd love to hear from you! Whether you have a project in mind, want to collaborate, or just want to say hello.
+                        Reach out anytime—I’m excited to hear from you, collaborate, or chat!
                     </p>
                 </div>
 

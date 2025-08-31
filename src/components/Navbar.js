@@ -16,7 +16,11 @@ export default function Navbar() {
     return (
         <header>
             <nav className="nav-container">
-                <div className="logo">Claire Ko</div>
+                <div className="logo">
+                    <Link to="/" style={{ textDecoration: "none", color: "inherit", fontWeight: "700" }}>
+                        Claire Ko
+                    </Link>
+                </div>
                 <div><div className="nav-links">
                     <Link to="/">Home</Link>
                     <Link to="/projects">Projects</Link>

@@ -70,10 +70,11 @@ export default function LeaveMessage() {
 
     return (
         <div className="container">
-            <div class="contact-header">
-                <h1 class="page-title">Let's Connect</h1>
-                <p class="page-subtitle">I'd love to hear from you! Whether you have a project in mind, want to collaborate, or just want to say hello.</p>
-
+            <div class="message-header">
+                <h1 class="message-title">Message Me</h1>
+                <p class="message-subtitle">
+                    I'd love to hear from you! Whether you have a project in mind, want to collaborate, or just want to say hello.
+                </p>
             </div>
 
             <div className="content-grid">

@@ -1,8 +1,20 @@
 import React from "react";
 
+
 export default function Story() {
     return (
         <div className="container">
+            <div
+                className="resume-banner"
+                style={{
+                    backgroundImage: 'url("./files/story.jpeg")',
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    height: "220px",
+                    borderRadius: "8px",
+                    marginBottom: "20px"
+                }}
+            ></div>
             <div className="resume-header">
                 <h1 className="resume-title">Claire Ko</h1>
                 <p>Thrive in solving complex problems and finding meaning in data, technology, and everyday experiences.</p>
