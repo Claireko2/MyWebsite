@@ -71,14 +71,6 @@ export default function ProjectDetail() {
                         dropdowns and checkboxes). Controllers handle CRUD actions and pass
                         data through strongly typed models.
                     </p>
-
-                    <h3>Screenshots</h3>
-                    <div className="gallery">
-                        <div className="gallery-item">Dashboard Overview</div>
-                        <div className="gallery-item">Employee Edit Page</div>
-                        <div className="gallery-item">Client Services Assignment</div>
-                        <div className="gallery-item">Entity Schema (Models)</div>
-                    </div>
                 </div>
 
                 <div className="sidebar">

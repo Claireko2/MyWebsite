@@ -71,14 +71,6 @@ export default function ProjectDetail() {
                         and update emails. Data is cached where possible to improve performance, and
                         the app is fully responsive across devices.
                     </p>
-
-                    <h3>Screenshots</h3>
-                    <div className="gallery">
-                        <div className="gallery-item">Landing Page</div>
-                        <div className="gallery-item">Restaurant Search</div>
-                        <div className="gallery-item">Menu & Order Flow</div>
-                        <div className="gallery-item">Profile & Order History</div>
-                    </div>
                 </div>
 
                 <div className="sidebar">
