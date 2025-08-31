@@ -1,9 +1,8 @@
 <img width="1892" height="542" alt="image" src="https://github.com/user-attachments/assets/96842d5a-fd73-4edb-9377-cfc77c3fc442" />
 
 # Personal Portfolio Website
-
-A modern, responsive portfolio website built with React and Tailwind CSS to showcase professional work, skills, and experience.
-
+A modern, responsive portfolio website built with React to showcase professional work, skills, and experience.
+## https://claireko.vercel.app/
 ## Features
 
 - **Responsive Design**: Optimized for all device sizes and screen resolutions
