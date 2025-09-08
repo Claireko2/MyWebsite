@@ -2,7 +2,7 @@
 
 # Personal Portfolio Website
 A modern, responsive portfolio website built with React to showcase professional work, skills, and experience.
-## https://claireko.vercel.app/
+## https://claireko18.vercel.app/
 ## Features
 
 - **Responsive Design**: Optimized for all device sizes and screen resolutions
