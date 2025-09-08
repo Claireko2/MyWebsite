@@ -12,7 +12,6 @@ export default function ProjectDetail() {
                     Responsive food ordering platform with real-time restaurant data
                 </p>
                 <div className="project-meta">
-                    <div className="meta-item">Duration: 4 months</div>
                     <div className="meta-item">Team: Solo project</div>
                     <div className="meta-item">Status: Completed</div>
                     <div className="meta-item">Year: 2024</div>

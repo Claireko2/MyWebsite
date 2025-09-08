@@ -12,7 +12,6 @@ export default function ProjectDetail() {
                     Full-stack web application for managing employees, clients, and services
                 </p>
                 <div className="project-meta">
-                    <div className="meta-item">Duration: 2 months</div>
                     <div className="meta-item">Solo Project</div>
                     <div className="meta-item">Status: Completed</div>
                     <div className="meta-item">Year: 2024</div>

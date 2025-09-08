@@ -12,7 +12,6 @@ export default function WeatherPredictDetail() {
                     Edge-computing powered weather forecasting with real-time data and ML
                 </p>
                 <div className="project-meta">
-                    <div className="meta-item">Duration: 2 months</div>
                     <div className="meta-item">Team: Solo Project</div>
                     <div className="meta-item">Status: Completed</div>
                     <div className="meta-item">Year: 2024</div>
