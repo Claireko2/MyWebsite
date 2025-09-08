@@ -13,13 +13,13 @@ export default function ProjectDetail() {
                     A full-stack platform for tracking job applications, analyzing market trends, and skill development.
                 </p>
                 <div className="project-meta">
-                    <div className="meta-item">Duration: 4 months</div>
+                    <div className="meta-item">Duration: 1.5 months</div>
                     <div className="meta-item">Team: Individual</div>
                     <div className="meta-item">Status: In Progress</div>
                     <div className="meta-item">Year: 2025</div>
                 </div>
                 <div>
-                    <a href="#" className="btn">Live Demo</a>
+                    <a href="https://career-compass-frontend-hazel.vercel.app" className="btn">Live Demo</a>
                     <a href="https://github.com/Claireko2/CareerCompass.git" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Code</a>
                 </div>
             </div>
@@ -27,7 +27,7 @@ export default function ProjectDetail() {
                 <h2 class="section-title">Demo Video</h2>
                 <div class="video-wrapper">
                     <iframe
-                        src="https://www.youtube.com/embed/nrgBlbN6pEY?si=WRENPoNB-i323iRJ"
+                        src="https://www.youtube.com/embed/vz89MlRpv3w?si=OD4tjxa_3tMcHtRa"
                         title="Demo Video"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -60,21 +60,7 @@ export default function ProjectDetail() {
                     <p>
                         The application uses a React frontend with Next.js API routes, PostgreSQL for structured data,
                         and Python scripts for resume parsing and skill matching. Data visualization is implemented with
-                        Recharts and D3.js. Prisma manages the database schema and integrations with multiple skill ontologies.
-                    </p>
-
-                    <h3>Challenges & Solutions</h3>
-                    <p>
-                        <strong>Challenge:</strong> Resume–job description matching was hindered by inconsistent skill naming, synonyms, and variations in text representation.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Developed an NLP pipeline using n-gram tokenization and text normalization to extract candidate skills from resumes and job postings. Mapped extracted terms to a normalized ESCO skill set to unify synonyms and reduce duplicates, enabling accurate resume–job skill gap analysis.
-                    </p>
-                    <p>
-                        <strong>Challenge:</strong> Visualizing evolving skill demand and trends effectively for end-users.
-                    </p>
-                    <p>
-                        <strong>Solution:</strong> Used interactive charts, filtering options to make insights actionable.
+                        Power BI interactive Dashboard. Prisma manages the database schema and integrations with multiple skill ontologies.
                     </p>
                 </div>
 

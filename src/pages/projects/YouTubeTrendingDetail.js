@@ -17,7 +17,6 @@ export default function YouTubeTrendingDetail() {
                     <div className="meta-item">Year: 2024</div>
                 </div>
                 <div>
-                    <a href="#" className="btn">Download PDF</a>
                     <a href="https://github.com/Claireko2/Youtube-Video-Analysis.git" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Code</a>
                 </div>
             </div>
