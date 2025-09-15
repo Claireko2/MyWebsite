@@ -89,7 +89,7 @@ export default function WeatherPredictDetail() {
                         <div className="tech-item">OpenWeather API</div>
                     </div>
 
-                    <h3>Project Stats</h3>
+                    <h3>Future Enhancements</h3>
                     <ul className="feature-list">
                         <li>Multi-day rainfall prediction</li>
                         <li>Deploy on cloud for public access</li>

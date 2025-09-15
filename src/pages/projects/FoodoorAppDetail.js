@@ -83,15 +83,6 @@ export default function ProjectDetail() {
                         <div className="tech-item">React Router</div>
                         <div className="tech-item">CSS3</div>
                     </div>
-
-                    <h3>Project Stats</h3>
-                    <ul className="feature-list">
-                        <li>5,000+ lines of code</li>
-                        <li>20+ API integrations</li>
-                        <li>100% mobile responsive</li>
-                        <li>Real-time API-driven data</li>
-                        <li>Secure authentication flow</li>
-                    </ul>
                 </div>
             </div>
         </div>
