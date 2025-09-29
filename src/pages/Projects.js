@@ -6,7 +6,7 @@ const projects = [
         id: "career-compass",
         title: "Career Compass Web App",
         description: "Built Career Compass, a job-market analytics platform leveraging Python and PostgreSQL for data cleaning and storage, and Power BI (DAX measures, interactive tables, dashboards) to deliver skill-demand insights, matching rates, and personalized gap analysis.",
-        tech: ["Next.js / React", "Node.js / Express", "Python", "Power BI", "PostgreSQL", "Pandas / NumPy", "Scikit-Learn", "Chart.js"],
+        tech: ["Next.js / React", "Node.js / Express", "Python", "Power BI", "PostgreSQL", "Pandas / NumPy", "Scikit-Learn"],
         image: "./files/compass.jpeg",
         link: "/projects/career-compass"
     },
@@ -118,3 +118,4 @@ export default function Projects() {
         </>
     );
 }
+
