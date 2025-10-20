@@ -19,7 +19,6 @@ export default function ProjectDetail() {
                     <div className="meta-item">Year: 2025</div>
                 </div>
                 <div>
-                    <a href="https://career-compass-frontend-hazel.vercel.app" className="btn">Live Demo</a>
                     <a href="https://github.com/Claireko2/CareerCompass.git" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Code</a>
                 </div>
             </div>
@@ -93,3 +92,4 @@ export default function ProjectDetail() {
         </div>
     );
 }
+
